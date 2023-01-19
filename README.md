@@ -1,4 +1,4 @@
-# Generate UML Entity Relationship Diagrams w/ Postgres & PlantUML
+# Generate Entity Relationship Diagrams w/ Postgres & PlantUML
 
 ``` dockerfile
 FROM postgres:15-alpine AS pg

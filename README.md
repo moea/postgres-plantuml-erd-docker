@@ -32,7 +32,7 @@ RUN java -jar /opt/plantuml.jar -verbose schema.uml
 ``` sh
 $ docker build . -t moea/erd
 $ id=$(docker create moea/erd)
-$ docker cp $id/erd/schema.png .
+$ docker cp $id:/erd/schema.png .
 $ docker rm -v $id
 $ open schema.png
 ```
